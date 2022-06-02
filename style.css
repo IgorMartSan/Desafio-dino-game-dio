@@ -1,0 +1,44 @@
+.background{
+    position: absolute;
+    bottom: 0;
+    background-image:url(img/background.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    animation: slideright 1000s infinite linear;
+    width: 100%; 
+    height: 200px;
+    
+}
+
+.dino{
+    position: absolute;
+    background-image:url(img/dino.png);
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+}
+
+
+.cactus{
+    position: absolute;
+    background-image:url(img/cactus.png);
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    
+}
+
+@keyframes slideright {
+    from {background-position: 60000%;
+
+    } to {
+        background-position: 0%;
+    }
+    
+}
+
+
+.gameOver{
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
